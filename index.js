@@ -11,7 +11,9 @@ const {
 const prompt = require('prompt-sync')();
 
 //takes the input of the address the user provide
+
 const walletAddress = prompt('Enter the destination account address: ');
+//use this address: FNC57G1dSAPguSdKYntKE9yxp1CaVmADjrvxVo4kZYqE
 
 // Create a new keypair
 const newPair = new Keypair();
